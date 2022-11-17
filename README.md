@@ -1,1 +1,4 @@
-# womenintech_python_bitirme_projesi
+# Women in Tech Python Bitirme Projesi
+**Merhabalar ben Zeynep, Sisterslab’in Toplum Gönüllüleri Vakfı (https://www.tog.org.tr/en/) tarafından desteklenen Woman in Tech Academy Projesi, Üniversite 3. & 4. sınıf öğrencisi veya üniversite mezunu, temel programlama bilgisine sahip, yazılım sektöründe çalışmak isteyen, 20-28 yaş arası 25 kadını 3 ay boyunca yazılım eğitimleriyle güçlendirerek sektörde iş gücüne katılımını hedefliyor. Ben de Woman in Tech Academy proje katılımcılarından biriyim. Teknoloji sektörü, cinsiyetçi rollerin dünya genelinde en ağır bastığı alanlardan biridir ve bu durumdan özellikle istihdama erişimde en çok etkilenen kitle ise kadınlardır. Bu problemden yola çıkarak geliştirilen Women in Tech Academy projesi hayata geçirilmiştir. Projeyle ilgili daha fazla bilgi almak için https://sisterslab.co/women-in-tech-academy/ linkine tıklayabilirsiniz.**
+
+Bitirme Projem kapsamında, Covid-19 salgını ile ilgili bilgiler içeren csv dosyasını analiz ettim.
