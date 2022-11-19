@@ -5,6 +5,7 @@ Bitirme Projem kapsamında, Covid-19 salgını ile ilgili bilgiler içeren csv d
 
 ![0](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/bb3cd67cd6c8f8faa8882d2e2725c649.gif?raw=true)
 
+[This is an external link to genome.gov](https://www.genome.gov/)
 
 
 # Veri Setiyle İlgili Açıklamalar
