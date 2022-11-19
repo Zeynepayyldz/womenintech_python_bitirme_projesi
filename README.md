@@ -27,9 +27,9 @@ Veri seti içerisinde; covid-19 salgını ile ilgili, günlük vaka sayısı, g�
 # Yapılan Analizlerin Sonuçları
 
 Yapılan analiz sonuçlarından bazıları aşağıda verilmiştir. Analizlerle ilgili daha fazla ayrıntılara .ipynb uzantılı kod dosyasından erişebilirsiniz.
+![1](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/1-eksik_veri.png)
 
 **Ülkelere göre günlük vaka sayısının bulunması;**
-
 
 ```
 import plotly.express as px
@@ -38,7 +38,7 @@ fig = px.line(daily_case, x="date", y="new_cases", color='location')  # ülkeler
 fig.update_layout({'yaxis_title':'Number of Daily Cases by Country. ','xaxis_title':'Date'})
 fig.show()
 ```
-
+![2](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/2-ulkelere_gore_gunluk_vaka.png)
 **Ülkelere göre ortalama vaka sayısının bulunması;**
 
 
@@ -51,7 +51,7 @@ fig = px.bar(average_case, y='new_cases')
 fig.update_layout({'yaxis_title':'Average Number of Cases by Country ','xaxis_title':'Location'})
 fig.show()
 ```
-
+![3](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/3-ulkelere_gore_ortalama_vaka.png)
 **Ülkelere göre toplam aşılama sayısının bulunması;**
 
 
@@ -64,7 +64,7 @@ fig.update_layout({'yaxis_title':'Total Number of Vaccinations by Country','xaxi
 fig.show()
 
 ```
-
+![4]()
 **Günlük ortalama vaka sayısının bulunması;**
 
 
