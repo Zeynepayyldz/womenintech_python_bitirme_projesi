@@ -1,7 +1,6 @@
 # Women in Tech Python Bitirme Projesi
 **Merhabalar ben Zeynep, Sisterslab’in Toplum Gönüllüleri Vakfı (https://www.tog.org.tr/en/) tarafından desteklenen Woman in Tech Academy Projesi, Üniversite 3. & 4. sınıf öğrencisi veya üniversite mezunu, temel programlama bilgisine sahip, yazılım sektöründe çalışmak isteyen, 20-28 yaş arası 25 kadını 3 ay boyunca yazılım eğitimleriyle güçlendirerek sektörde iş gücüne katılımını hedefliyor. Ben de Woman in Tech Academy proje katılımcılarından biriyim. Teknoloji sektörü, cinsiyetçi rollerin dünya genelinde en ağır bastığı alanlardan biridir ve bu durumdan özellikle istihdama erişimde en çok etkilenen kitle ise kadınlardır. Bu problemden yola çıkarak geliştirilen Women in Tech Academy projesi hayata geçirilmiştir. Projeyle ilgili daha fazla bilgi almak için https://sisterslab.co/women-in-tech-academy/ linkine tıklayabilirsiniz.**
 
-![11](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/dunya_gunluk_ortalama_vaka.html)
 Bitirme Projem kapsamında, Covid-19 salgını ile ilgili bilgiler içeren csv dosyasını analiz ettim.
 
 ![0](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/bb3cd67cd6c8f8faa8882d2e2725c649.gif?raw=true)
@@ -42,6 +41,7 @@ fig.show("png")
 
 ```
 ![1](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/1-eksik_veri.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/eksik_veri.html
 
 **Ülkelere göre günlük vaka sayısının bulunması;**
 
@@ -53,6 +53,7 @@ fig.update_layout({'yaxis_title':'Number of Daily Cases by Country. ','xaxis_tit
 fig.show()
 ```
 ![2](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/2-ulkelere_gore_gunluk_vaka.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/ulkelere_gore_gunluk_vaka.html
 
 **Ülkelere göre ortalama vaka sayısının bulunması;**
 
@@ -67,6 +68,7 @@ fig.update_layout({'yaxis_title':'Average Number of Cases by Country ','xaxis_ti
 fig.show()
 ```
 ![3](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/3-ulkelere_gore_ortalama_vaka.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/ulkelere_gore_ortalama_vaka.html
 
 **Ülkelere göre toplam aşılama sayısının bulunması;**
 
@@ -89,6 +91,7 @@ covid.groupby("location")["new_cases"].mean().sort_values(ascending=False).plot.
 ```
 
 ![4](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/4-siralanmis_ulkelere_gore_ortalama_vaka.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/siralanmis_ulkelere_gore_ortalama_vaka.html
 
 **Ülkelere göre toplam aşılama sayısının bulunması;**
 
@@ -102,6 +105,7 @@ fig.show("png")
 
 ```
 ![5](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/5-ulkelere_gore_toplam_asilama.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/ulkelere_gore_toplam_asilama.html
 
 
 **Günlük ortalama vaka sayısının bulunması;**
@@ -117,6 +121,7 @@ fig.show("png")
 
 ```
 ![6](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/6-dunya_gunluk_ortalama_vaka.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/dunya_gunluk_ortalama_vaka.html
 
 **EK OLARAK YAPILAN ANALİZLER**
 
@@ -133,6 +138,7 @@ fig.show("png")
 
 ```
 ![7](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/7-ulkelere_gore_gunluk_olum.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/ulkelere_gore_gunluk_olum.html
 
 **Aşılamanın ölüm üzerindeki etkisinin analizi;**
 
@@ -150,6 +156,7 @@ fig.show("png")
 
 ```
 ![8](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/8-ulkelere_gore_asilama_vaka_olum_orani.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/ulkelere_gore_asilama_vaka_olum_orani.html
 
 **Sigara içen kadınlarda toplam ölüm analizi;**
 
@@ -165,6 +172,7 @@ fig.show("png")
 
 ```
 ![9](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/9-kadin_sigara_toplam_olum.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/kadin_sigara_toplam_olum.html
 
 
 **Sigara içen erkeklerde toplam ölüm analizi;**
@@ -174,6 +182,7 @@ fig = px.scatter(smoker_death, x="total_deaths", y="male_smokers", trendline="lo
 fig.show("png")
 ```
 ![10](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/10-erkek_sigara_toplam_olum.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/erkek_sigara_toplam_olum.html
 
 **Sigara içen kadın ver erkeklerde ölüm oranının analizi**
 
@@ -184,6 +193,7 @@ fig = px.scatter(smoker_death, x="male_smokers", y="female_smokers", trendline="
 fig.show("png")
 ```
 ![11](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/11-kadin_erkek_sigara_olum_orani.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/kadin_erkek_sigara_olum_orani.html
 
 **Kişi başı gelir düzeyine -GDP per Capita- bağlı ölüm oranı analizi;**
 
@@ -239,6 +249,7 @@ fig.show("png")
 ```
 
 ![12](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/12-gdp_death_ratio.png)
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/gdp_death_ratio.html
 
 **Kişi başı gelir düzeyine -GDP per Capita- bağlı olarak aşılama oranı analizi;**
 
@@ -293,14 +304,7 @@ fig.update_layout(title='<b>Kişi Başı Gelir Düzeyine Bağlı Olarak Nüfusun
 fig.show("png")
 ```
 ![13](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/13-gdp_vac_ratio.png)
-
-
-
-
-
-
-
-
+[See the HTML!](https://htmlpreview.github.io/?https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/htmls/gdp_vac_ratio.html
 
 
 
