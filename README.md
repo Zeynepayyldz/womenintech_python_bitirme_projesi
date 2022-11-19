@@ -313,7 +313,5 @@ fig.show("png")
 
 
 
-
-
-![UU](https://octodex.github.com/images/yaktocat.png)
+![UU](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/92ad49b7e90f96a0686bf6a9f28c2c3f.gif)
 
