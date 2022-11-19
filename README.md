@@ -101,3 +101,4 @@ death_vaccinations
 ```
 ![UU](https://octodex.github.com/images/yaktocat.png)
 
+![](https://github.com/Zeynepayyldz/womenintech_python_bitirme_projesi/blob/main/images/bb3cd67cd6c8f8faa8882d2e2725c649.gif?raw=true)
