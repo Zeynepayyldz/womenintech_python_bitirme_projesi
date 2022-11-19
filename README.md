@@ -13,14 +13,20 @@ Veri seti içerisinde; covid-19 salgını ile ilgili, günlük vaka sayısı, g�
 
 **Yapılacak Analizler ise şu şekildedir;**
 
-1. Ülkelere göre günlük vaka sayısı.
-2. Ülkelere göre ortalama vaka sayısı.
-3. Ülkelere göre toplam aşılama sayısı.
-4. Günlük ortalama vaka sayısı.
+1.  Ülkelere göre günlük vaka sayısı.
+2.  Ülkelere göre ortalama vaka sayısı.
+3.  Ülkelere göre toplam aşılama sayısı.
+4.  Günlük ortalama vaka sayısı.
+5.  Ülkelere göre günlük ölüm sayısının analizi.
+6.  Aşılamanın ölüm oranı üzerindeki etkisinin analizi.
+7.  Sigara içen kadın ölüm oranının karşılaştırılması
+8.  Sigara içen erkek ölüm oranının karşılaştırılması
+9.  Sigara içen kadın-erkek ölüm oranının karşılaştırılması
+10. Kişi başı gelir düzeyine bağlı olarak ölüm oranı analizi.
+11. Kişi başı gelir düzeyine bağlı olarak aşılama oranı analizi
 
 **Analizde Kullanılacak kütüphaneler şu şekildedir;**
 * Pandas
-* Seaborn
 * Plotly
 
 # Yapılan Analizlerin Sonuçları
